@@ -9,26 +9,60 @@
 /* Begin PBXBuildFile section */
 		44C166532C5E43100053F007 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C166522C5E43100053F007 /* AppDelegate.swift */; };
 		44C166552C5E43100053F007 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C166542C5E43100053F007 /* SceneDelegate.swift */; };
-		44C166572C5E43100053F007 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C166562C5E43100053F007 /* ViewController.swift */; };
-		44C1665A2C5E43100053F007 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 44C166592C5E43100053F007 /* Base */; };
 		44C1665C2C5E43110053F007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C1665B2C5E43110053F007 /* Assets.xcassets */; };
 		44C1665F2C5E43110053F007 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 44C1665E2C5E43110053F007 /* Base */; };
 		44C166702C5E49750053F007 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 44C1666F2C5E49750053F007 /* Alamofire */; };
-		44C166722C5E49750053F007 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 44C166712C5E49750053F007 /* AlamofireDynamic */; };
 		44C166752C5E498A0053F007 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 44C166742C5E498A0053F007 /* Kingfisher */; };
 		44C166782C5E4ACE0053F007 /* UIComponent in Frameworks */ = {isa = PBXBuildFile; productRef = 44C166772C5E4ACE0053F007 /* UIComponent */; };
 		44C1667B2C5E4B0D0053F007 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 44C1667A2C5E4B0D0053F007 /* ComposableArchitecture */; };
+		44C166AC2C5E51800053F007 /* BingDictionaryUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C166AB2C5E51800053F007 /* BingDictionaryUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44C166AF2C5E51800053F007 /* BingDictionaryUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44C166A92C5E51800053F007 /* BingDictionaryUI.framework */; };
+		44C166B02C5E51800053F007 /* BingDictionaryUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 44C166A92C5E51800053F007 /* BingDictionaryUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		44C166B52C5E51AD0053F007 /* BingDictionaryUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44C166A92C5E51800053F007 /* BingDictionaryUI.framework */; };
+		44C166B92C5E51CC0053F007 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C166B82C5E51CC0053F007 /* ViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44C166AD2C5E51800053F007 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44C166472C5E43100053F007 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44C166A82C5E51800053F007;
+			remoteInfo = BingDictionaryUI;
+		};
+		44C166B62C5E51AE0053F007 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44C166472C5E43100053F007 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44C166A82C5E51800053F007;
+			remoteInfo = BingDictionaryUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		44C166B42C5E51800053F007 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				44C166B02C5E51800053F007 /* BingDictionaryUI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		44C1664F2C5E43100053F007 /* BingDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BingDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C166522C5E43100053F007 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44C166542C5E43100053F007 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		44C166562C5E43100053F007 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		44C166592C5E43100053F007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44C1665B2C5E43110053F007 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44C1665E2C5E43110053F007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44C166602C5E43110053F007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44C166A92C5E51800053F007 /* BingDictionaryUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BingDictionaryUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44C166AB2C5E51800053F007 /* BingDictionaryUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BingDictionaryUI.h; sourceTree = "<group>"; };
+		44C166B82C5E51CC0053F007 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +74,15 @@
 				44C166782C5E4ACE0053F007 /* UIComponent in Frameworks */,
 				44C166752C5E498A0053F007 /* Kingfisher in Frameworks */,
 				44C166702C5E49750053F007 /* Alamofire in Frameworks */,
-				44C166722C5E49750053F007 /* AlamofireDynamic in Frameworks */,
+				44C166B52C5E51AD0053F007 /* BingDictionaryUI.framework in Frameworks */,
+				44C166AF2C5E51800053F007 /* BingDictionaryUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44C166A62C5E51800053F007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,8 +92,10 @@
 		44C166462C5E43100053F007 = {
 			isa = PBXGroup;
 			children = (
+				44C1667E2C5E4E1B0053F007 /* sumodules */,
 				44C166512C5E43100053F007 /* BingDictionary */,
 				44C166502C5E43100053F007 /* Products */,
+				44C1668C2C5E4E950053F007 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				44C1664F2C5E43100053F007 /* BingDictionary.app */,
+				44C166A92C5E51800053F007 /* BingDictionaryUI.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,18 +111,59 @@
 		44C166512C5E43100053F007 /* BingDictionary */ = {
 			isa = PBXGroup;
 			children = (
-				44C166522C5E43100053F007 /* AppDelegate.swift */,
-				44C166542C5E43100053F007 /* SceneDelegate.swift */,
-				44C166562C5E43100053F007 /* ViewController.swift */,
-				44C166582C5E43100053F007 /* Main.storyboard */,
-				44C1665B2C5E43110053F007 /* Assets.xcassets */,
-				44C1665D2C5E43110053F007 /* LaunchScreen.storyboard */,
-				44C166602C5E43110053F007 /* Info.plist */,
+				44C1667D2C5E4D500053F007 /* iOS */,
 			);
 			path = BingDictionary;
 			sourceTree = "<group>";
 		};
+		44C1667D2C5E4D500053F007 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				44C1665B2C5E43110053F007 /* Assets.xcassets */,
+				44C1665D2C5E43110053F007 /* LaunchScreen.storyboard */,
+				44C166522C5E43100053F007 /* AppDelegate.swift */,
+				44C166542C5E43100053F007 /* SceneDelegate.swift */,
+				44C166602C5E43110053F007 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		44C1667E2C5E4E1B0053F007 /* sumodules */ = {
+			isa = PBXGroup;
+			children = (
+				44C166AA2C5E51800053F007 /* BingDictionaryUI */,
+			);
+			path = sumodules;
+			sourceTree = "<group>";
+		};
+		44C1668C2C5E4E950053F007 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44C166AA2C5E51800053F007 /* BingDictionaryUI */ = {
+			isa = PBXGroup;
+			children = (
+				44C166AB2C5E51800053F007 /* BingDictionaryUI.h */,
+				44C166B82C5E51CC0053F007 /* ViewController.swift */,
+			);
+			path = BingDictionaryUI;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		44C166A42C5E51800053F007 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C166AC2C5E51800053F007 /* BingDictionaryUI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		44C1664E2C5E43100053F007 /* BingDictionary */ = {
@@ -87,15 +173,17 @@
 				44C1664B2C5E43100053F007 /* Sources */,
 				44C1664C2C5E43100053F007 /* Frameworks */,
 				44C1664D2C5E43100053F007 /* Resources */,
+				44C166B42C5E51800053F007 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				44C166AE2C5E51800053F007 /* PBXTargetDependency */,
+				44C166B72C5E51AE0053F007 /* PBXTargetDependency */,
 			);
 			name = BingDictionary;
 			packageProductDependencies = (
 				44C1666F2C5E49750053F007 /* Alamofire */,
-				44C166712C5E49750053F007 /* AlamofireDynamic */,
 				44C166742C5E498A0053F007 /* Kingfisher */,
 				44C166772C5E4ACE0053F007 /* UIComponent */,
 				44C1667A2C5E4B0D0053F007 /* ComposableArchitecture */,
@@ -103,6 +191,24 @@
 			productName = BingDictionary;
 			productReference = 44C1664F2C5E43100053F007 /* BingDictionary.app */;
 			productType = "com.apple.product-type.application";
+		};
+		44C166A82C5E51800053F007 /* BingDictionaryUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44C166B12C5E51800053F007 /* Build configuration list for PBXNativeTarget "BingDictionaryUI" */;
+			buildPhases = (
+				44C166A42C5E51800053F007 /* Headers */,
+				44C166A52C5E51800053F007 /* Sources */,
+				44C166A62C5E51800053F007 /* Frameworks */,
+				44C166A72C5E51800053F007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BingDictionaryUI;
+			productName = BingDictionaryUI;
+			productReference = 44C166A92C5E51800053F007 /* BingDictionaryUI.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -116,6 +222,10 @@
 				TargetAttributes = {
 					44C1664E2C5E43100053F007 = {
 						CreatedOnToolsVersion = 15.4;
+					};
+					44C166A82C5E51800053F007 = {
+						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 					};
 				};
 			};
@@ -139,6 +249,7 @@
 			projectRoot = "";
 			targets = (
 				44C1664E2C5E43100053F007 /* BingDictionary */,
+				44C166A82C5E51800053F007 /* BingDictionaryUI */,
 			);
 		};
 /* End PBXProject section */
@@ -150,7 +261,13 @@
 			files = (
 				44C1665C2C5E43110053F007 /* Assets.xcassets in Resources */,
 				44C1665F2C5E43110053F007 /* Base in Resources */,
-				44C1665A2C5E43100053F007 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44C166A72C5E51800053F007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,23 +278,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44C166572C5E43100053F007 /* ViewController.swift in Sources */,
 				44C166532C5E43100053F007 /* AppDelegate.swift in Sources */,
 				44C166552C5E43100053F007 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		44C166A52C5E51800053F007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C166B92C5E51CC0053F007 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		44C166582C5E43100053F007 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				44C166592C5E43100053F007 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		44C166AE2C5E51800053F007 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44C166A82C5E51800053F007 /* BingDictionaryUI */;
+			targetProxy = 44C166AD2C5E51800053F007 /* PBXContainerItemProxy */;
 		};
+		44C166B72C5E51AE0053F007 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44C166A82C5E51800053F007 /* BingDictionaryUI */;
+			targetProxy = 44C166B62C5E51AE0053F007 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		44C1665D2C5E43110053F007 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -311,17 +440,18 @@
 		44C166642C5E43110053F007 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BingDictionary/Info.plist;
+				INFOPLIST_FILE = BingDictionary/iOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -338,17 +468,18 @@
 		44C166652C5E43110053F007 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BingDictionary/Info.plist;
+				INFOPLIST_FILE = BingDictionary/iOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -359,6 +490,81 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		44C166B22C5E51800053F007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.bingbing.BingDictionaryUI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44C166B32C5E51800053F007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.bingbing.BingDictionaryUI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -379,6 +585,15 @@
 			buildConfigurations = (
 				44C166642C5E43110053F007 /* Debug */,
 				44C166652C5E43110053F007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44C166B12C5E51800053F007 /* Build configuration list for PBXNativeTarget "BingDictionaryUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44C166B22C5E51800053F007 /* Debug */,
+				44C166B32C5E51800053F007 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -425,11 +640,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 44C1666E2C5E49750053F007 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
-		};
-		44C166712C5E49750053F007 /* AlamofireDynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 44C1666E2C5E49750053F007 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = AlamofireDynamic;
 		};
 		44C166742C5E498A0053F007 /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
