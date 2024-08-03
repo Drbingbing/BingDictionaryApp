@@ -13,6 +13,7 @@
 		44C1665A2C5E43100053F007 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 44C166592C5E43100053F007 /* Base */; };
 		44C1665C2C5E43110053F007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C1665B2C5E43110053F007 /* Assets.xcassets */; };
 		44C1665F2C5E43110053F007 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 44C1665E2C5E43110053F007 /* Base */; };
+		44C1666D2C5E46060053F007 /* AsyncDisplayKit in Frameworks */ = {isa = PBXBuildFile; productRef = 44C1666C2C5E46060053F007 /* AsyncDisplayKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44C1666D2C5E46060053F007 /* AsyncDisplayKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = BingDictionary;
+			packageProductDependencies = (
+				44C1666C2C5E46060053F007 /* AsyncDisplayKit */,
+			);
 			productName = BingDictionary;
 			productReference = 44C1664F2C5E43100053F007 /* BingDictionary.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 44C166462C5E43100053F007;
+			packageReferences = (
+				44C1666B2C5E46060053F007 /* XCRemoteSwiftPackageReference "Texture" */,
+			);
 			productRefGroup = 44C166502C5E43100053F007 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -361,6 +369,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		44C1666B2C5E46060053F007 /* XCRemoteSwiftPackageReference "Texture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/shimastripe/Texture.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		44C1666C2C5E46060053F007 /* AsyncDisplayKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44C1666B2C5E46060053F007 /* XCRemoteSwiftPackageReference "Texture" */;
+			productName = AsyncDisplayKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 44C166472C5E43100053F007 /* Project object */;
 }
