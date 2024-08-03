@@ -13,7 +13,11 @@
 		44C1665A2C5E43100053F007 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 44C166592C5E43100053F007 /* Base */; };
 		44C1665C2C5E43110053F007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C1665B2C5E43110053F007 /* Assets.xcassets */; };
 		44C1665F2C5E43110053F007 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 44C1665E2C5E43110053F007 /* Base */; };
-		44C1666D2C5E46060053F007 /* AsyncDisplayKit in Frameworks */ = {isa = PBXBuildFile; productRef = 44C1666C2C5E46060053F007 /* AsyncDisplayKit */; };
+		44C166702C5E49750053F007 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 44C1666F2C5E49750053F007 /* Alamofire */; };
+		44C166722C5E49750053F007 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 44C166712C5E49750053F007 /* AlamofireDynamic */; };
+		44C166752C5E498A0053F007 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 44C166742C5E498A0053F007 /* Kingfisher */; };
+		44C166782C5E4ACE0053F007 /* UIComponent in Frameworks */ = {isa = PBXBuildFile; productRef = 44C166772C5E4ACE0053F007 /* UIComponent */; };
+		44C1667B2C5E4B0D0053F007 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 44C1667A2C5E4B0D0053F007 /* ComposableArchitecture */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +36,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44C1666D2C5E46060053F007 /* AsyncDisplayKit in Frameworks */,
+				44C1667B2C5E4B0D0053F007 /* ComposableArchitecture in Frameworks */,
+				44C166782C5E4ACE0053F007 /* UIComponent in Frameworks */,
+				44C166752C5E498A0053F007 /* Kingfisher in Frameworks */,
+				44C166702C5E49750053F007 /* Alamofire in Frameworks */,
+				44C166722C5E49750053F007 /* AlamofireDynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +94,11 @@
 			);
 			name = BingDictionary;
 			packageProductDependencies = (
-				44C1666C2C5E46060053F007 /* AsyncDisplayKit */,
+				44C1666F2C5E49750053F007 /* Alamofire */,
+				44C166712C5E49750053F007 /* AlamofireDynamic */,
+				44C166742C5E498A0053F007 /* Kingfisher */,
+				44C166772C5E4ACE0053F007 /* UIComponent */,
+				44C1667A2C5E4B0D0053F007 /* ComposableArchitecture */,
 			);
 			productName = BingDictionary;
 			productReference = 44C1664F2C5E43100053F007 /* BingDictionary.app */;
@@ -117,7 +129,10 @@
 			);
 			mainGroup = 44C166462C5E43100053F007;
 			packageReferences = (
-				44C1666B2C5E46060053F007 /* XCRemoteSwiftPackageReference "Texture" */,
+				44C1666E2C5E49750053F007 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				44C166732C5E498A0053F007 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				44C166762C5E4ACE0053F007 /* XCRemoteSwiftPackageReference "UIComponent" */,
+				44C166792C5E4B0D0053F007 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
 			);
 			productRefGroup = 44C166502C5E43100053F007 /* Products */;
 			projectDirPath = "";
@@ -371,21 +386,65 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		44C1666B2C5E46060053F007 /* XCRemoteSwiftPackageReference "Texture" */ = {
+		44C1666E2C5E49750053F007 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/shimastripe/Texture.git";
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 3.1.1;
+				minimumVersion = 5.9.1;
+			};
+		};
+		44C166732C5E498A0053F007 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.12.0;
+			};
+		};
+		44C166762C5E4ACE0053F007 /* XCRemoteSwiftPackageReference "UIComponent" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lkzhao/UIComponent";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		44C166792C5E4B0D0053F007 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.12.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		44C1666C2C5E46060053F007 /* AsyncDisplayKit */ = {
+		44C1666F2C5E49750053F007 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 44C1666B2C5E46060053F007 /* XCRemoteSwiftPackageReference "Texture" */;
-			productName = AsyncDisplayKit;
+			package = 44C1666E2C5E49750053F007 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		44C166712C5E49750053F007 /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44C1666E2C5E49750053F007 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+		44C166742C5E498A0053F007 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44C166732C5E498A0053F007 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		44C166772C5E4ACE0053F007 /* UIComponent */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44C166762C5E4ACE0053F007 /* XCRemoteSwiftPackageReference "UIComponent" */;
+			productName = UIComponent;
+		};
+		44C1667A2C5E4B0D0053F007 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44C166792C5E4B0D0053F007 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
