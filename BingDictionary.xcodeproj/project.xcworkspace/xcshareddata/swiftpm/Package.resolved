@@ -1,5 +1,5 @@
 {
-  "originHash" : "a423305b4e62da4bd623c22841614b655d733b1225714cb1680e7d60e1fb9e8e",
+  "originHash" : "c8a9319e56d5f4c3bf9f0de29ca3e6e59c1496bfb3c9bb5e86738646b64eaf4c",
   "pins" : [
     {
       "identity" : "alamofire",
@@ -119,12 +119,30 @@
       }
     },
     {
+      "identity" : "swiftui-flow",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tevelee/SwiftUI-Flow.git",
+      "state" : {
+        "revision" : "0f3e7f2706a42637448600b2b9d7041605042ba8",
+        "version" : "2.4.0"
+      }
+    },
+    {
       "identity" : "swiftui-navigation",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/pointfreeco/swiftui-navigation",
       "state" : {
         "revision" : "fc91d591ebba1f90d65028ccb65c861e5979e898",
         "version" : "1.5.4"
+      }
+    },
+    {
+      "identity" : "waterfallgrid",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/paololeonardi/WaterfallGrid.git",
+      "state" : {
+        "revision" : "c7c08652c3540adf8e48409c351879b4caea7e89",
+        "version" : "1.1.0"
       }
     },
     {
