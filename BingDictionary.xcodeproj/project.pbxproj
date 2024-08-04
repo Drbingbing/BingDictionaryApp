@@ -96,7 +96,6 @@
 		44C166462C5E43100053F007 = {
 			isa = PBXGroup;
 			children = (
-				44C1667E2C5E4E1B0053F007 /* sumodules */,
 				44C166512C5E43100053F007 /* BingDictionary */,
 				44C166502C5E43100053F007 /* Products */,
 				44C1668C2C5E4E950053F007 /* Frameworks */,
@@ -131,13 +130,6 @@
 				449A4A902C5F640F008E1674 /* RootView.swift */,
 			);
 			path = iOS;
-			sourceTree = "<group>";
-		};
-		44C1667E2C5E4E1B0053F007 /* sumodules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = sumodules;
 			sourceTree = "<group>";
 		};
 		44C1668C2C5E4E950053F007 /* Frameworks */ = {
