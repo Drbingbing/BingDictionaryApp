@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		449A4A892C5F6071008E1674 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4A882C5F6071008E1674 /* AppDelegate.swift */; };
+		449A4A8F2C5F6307008E1674 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4A8E2C5F6307008E1674 /* HomeView.swift */; };
+		449A4A912C5F640F008E1674 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4A902C5F640F008E1674 /* RootView.swift */; };
+		449A4A942C5F6455008E1674 /* HomeNavigationHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4A932C5F6455008E1674 /* HomeNavigationHeader.swift */; };
 		44C166532C5E43100053F007 /* DictionaryAnyWhereApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C166522C5E43100053F007 /* DictionaryAnyWhereApp.swift */; };
 		44C1665C2C5E43110053F007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C1665B2C5E43110053F007 /* Assets.xcassets */; };
 		44C1665F2C5E43110053F007 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 44C1665E2C5E43110053F007 /* Base */; };
@@ -41,7 +44,10 @@
 
 /* Begin PBXFileReference section */
 		449A4A882C5F6071008E1674 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		44C1664F2C5E43100053F007 /* BingDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BingDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		449A4A8E2C5F6307008E1674 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		449A4A902C5F640F008E1674 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		449A4A932C5F6455008E1674 /* HomeNavigationHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigationHeader.swift; sourceTree = "<group>"; };
+		44C1664F2C5E43100053F007 /* DictionaryAnyWhere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DictionaryAnyWhere.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C166522C5E43100053F007 /* DictionaryAnyWhereApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryAnyWhereApp.swift; sourceTree = "<group>"; };
 		44C1665B2C5E43110053F007 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44C1665E2C5E43110053F007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -62,6 +68,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		449A4A8A2C5F6112008E1674 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				449A4A8D2C5F6129008E1674 /* Home */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		449A4A8D2C5F6129008E1674 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				449A4A922C5F6443008E1674 /* Components */,
+				449A4A8E2C5F6307008E1674 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		449A4A922C5F6443008E1674 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				449A4A932C5F6455008E1674 /* HomeNavigationHeader.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		44C166462C5E43100053F007 = {
 			isa = PBXGroup;
 			children = (
@@ -75,7 +106,7 @@
 		44C166502C5E43100053F007 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				44C1664F2C5E43100053F007 /* BingDictionary.app */,
+				44C1664F2C5E43100053F007 /* DictionaryAnyWhere.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +114,7 @@
 		44C166512C5E43100053F007 /* BingDictionary */ = {
 			isa = PBXGroup;
 			children = (
+				449A4A8A2C5F6112008E1674 /* Features */,
 				44C1667D2C5E4D500053F007 /* iOS */,
 			);
 			path = BingDictionary;
@@ -96,6 +128,7 @@
 				44C166522C5E43100053F007 /* DictionaryAnyWhereApp.swift */,
 				44C1665B2C5E43110053F007 /* Assets.xcassets */,
 				44C1665D2C5E43110053F007 /* LaunchScreen.storyboard */,
+				449A4A902C5F640F008E1674 /* RootView.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -117,9 +150,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		44C1664E2C5E43100053F007 /* BingDictionary */ = {
+		44C1664E2C5E43100053F007 /* DictionaryAnyWhere */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 44C166632C5E43110053F007 /* Build configuration list for PBXNativeTarget "BingDictionary" */;
+			buildConfigurationList = 44C166632C5E43110053F007 /* Build configuration list for PBXNativeTarget "DictionaryAnyWhere" */;
 			buildPhases = (
 				44C1664B2C5E43100053F007 /* Sources */,
 				44C1664C2C5E43100053F007 /* Frameworks */,
@@ -131,14 +164,14 @@
 			dependencies = (
 				44C166B72C5E51AE0053F007 /* PBXTargetDependency */,
 			);
-			name = BingDictionary;
+			name = DictionaryAnyWhere;
 			packageProductDependencies = (
 				44C1666F2C5E49750053F007 /* Alamofire */,
 				44C166742C5E498A0053F007 /* Kingfisher */,
 				44C1667A2C5E4B0D0053F007 /* ComposableArchitecture */,
 			);
 			productName = BingDictionary;
-			productReference = 44C1664F2C5E43100053F007 /* BingDictionary.app */;
+			productReference = 44C1664F2C5E43100053F007 /* DictionaryAnyWhere.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -174,7 +207,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				44C1664E2C5E43100053F007 /* BingDictionary */,
+				44C1664E2C5E43100053F007 /* DictionaryAnyWhere */,
 			);
 		};
 /* End PBXProject section */
@@ -196,6 +229,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				449A4A942C5F6455008E1674 /* HomeNavigationHeader.swift in Sources */,
+				449A4A912C5F640F008E1674 /* RootView.swift in Sources */,
+				449A4A8F2C5F6307008E1674 /* HomeView.swift in Sources */,
 				449A4A892C5F6071008E1674 /* AppDelegate.swift in Sources */,
 				44C166532C5E43100053F007 /* DictionaryAnyWhereApp.swift in Sources */,
 			);
@@ -409,7 +445,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		44C166632C5E43110053F007 /* Build configuration list for PBXNativeTarget "BingDictionary" */ = {
+		44C166632C5E43110053F007 /* Build configuration list for PBXNativeTarget "DictionaryAnyWhere" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				44C166642C5E43110053F007 /* Debug */,

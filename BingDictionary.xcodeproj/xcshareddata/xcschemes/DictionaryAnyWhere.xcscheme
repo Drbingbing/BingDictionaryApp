@@ -16,8 +16,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "44C1664E2C5E43100053F007"
-               BuildableName = "BingDictionary.app"
-               BlueprintName = "BingDictionary"
+               BuildableName = "DictionaryAnyWhere.app"
+               BlueprintName = "DictionaryAnyWhere"
                ReferencedContainer = "container:BingDictionary.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "44C1664E2C5E43100053F007"
-            BuildableName = "BingDictionary.app"
-            BlueprintName = "BingDictionary"
+            BuildableName = "DictionaryAnyWhere.app"
+            BlueprintName = "DictionaryAnyWhere"
             ReferencedContainer = "container:BingDictionary.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "44C1664E2C5E43100053F007"
-            BuildableName = "BingDictionary.app"
-            BlueprintName = "BingDictionary"
+            BuildableName = "DictionaryAnyWhere.app"
+            BlueprintName = "DictionaryAnyWhere"
             ReferencedContainer = "container:BingDictionary.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
