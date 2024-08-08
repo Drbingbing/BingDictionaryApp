@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		441F4A8C2C64C11A0034D7C6 /* WordResultFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441F4A8A2C64BF2C0034D7C6 /* WordResultFeature.swift */; };
+		441F4A8E2C64CA1F0034D7C6 /* PhoneticFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441F4A8D2C64CA1F0034D7C6 /* PhoneticFeature.swift */; };
+		441F4A902C64E0B60034D7C6 /* EtymologyFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441F4A8F2C64E0B60034D7C6 /* EtymologyFeature.swift */; };
 		449A4A892C5F6071008E1674 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4A882C5F6071008E1674 /* AppDelegate.swift */; };
 		449A4A8F2C5F6307008E1674 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4A8E2C5F6307008E1674 /* HomeView.swift */; };
 		449A4A912C5F640F008E1674 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4A902C5F640F008E1674 /* RootView.swift */; };
@@ -23,15 +26,138 @@
 		449A4AAB2C5F89FD008E1674 /* WaterfallGrid in Frameworks */ = {isa = PBXBuildFile; productRef = 449A4AAA2C5F89FD008E1674 /* WaterfallGrid */; };
 		449A4AAE2C5F8B48008E1674 /* Flow in Frameworks */ = {isa = PBXBuildFile; productRef = 449A4AAD2C5F8B48008E1674 /* Flow */; };
 		449A4AB12C5F9A5C008E1674 /* WordSearchResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4AB02C5F9A5C008E1674 /* WordSearchResultView.swift */; };
+		449A4AEA2C5F9FDE008E1674 /* PostBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 449A4AE92C5F9FDE008E1674 /* PostBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		449A4AED2C5F9FDE008E1674 /* PostBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449A4AE72C5F9FDE008E1674 /* PostBox.framework */; };
+		449A4AF22C5F9FF0008E1674 /* PostboxLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4ADE2C5F9E49008E1674 /* PostboxLogging.swift */; };
+		449A4AFC2C5FA01D008E1674 /* DictionaryCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 449A4AFB2C5FA01D008E1674 /* DictionaryCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		449A4AFF2C5FA01D008E1674 /* DictionaryCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449A4AF92C5FA01D008E1674 /* DictionaryCore.framework */; };
+		449A4B052C5FA058008E1674 /* PostBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449A4AE72C5F9FDE008E1674 /* PostBox.framework */; };
+		449A4B302C5FB0F7008E1674 /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4B1B2C5FA6B3008E1674 /* Coding.swift */; };
+		449A4B312C5FB0FD008E1674 /* MurMurHash3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4B212C5FAC1A008E1674 /* MurMurHash3.swift */; };
+		449A4B322C5FB0FD008E1674 /* ValueBoxKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4B1F2C5FA92E008E1674 /* ValueBoxKey.swift */; };
+		449A4B332C5FB104008E1674 /* AdaptedPostboxKeyedDecodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4B1D2C5FA819008E1674 /* AdaptedPostboxKeyedDecodingContainer.swift */; };
+		449A4B342C5FB104008E1674 /* AdaptedPostboxSingleValueDecodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4B2C2C5FB01F008E1674 /* AdaptedPostboxSingleValueDecodingContainer.swift */; };
+		449A4B352C5FB104008E1674 /* AdaptedPostboxDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4B192C5FA5C8008E1674 /* AdaptedPostboxDecoder.swift */; };
+		449A4B362C5FB104008E1674 /* AdaptedPostboxUnkeyedDecodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4B2A2C5FAFD4008E1674 /* AdaptedPostboxUnkeyedDecodingContainer.swift */; };
+		449A4B372C5FB10B008E1674 /* AdaptedPostboxEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4B242C5FAECE008E1674 /* AdaptedPostboxEncoder.swift */; };
+		449A4B382C5FB10B008E1674 /* AdaptedPostboxEncodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4B262C5FAF07008E1674 /* AdaptedPostboxEncodingContainer.swift */; };
+		449A4B392C5FB10B008E1674 /* AdaptedPostboxUnKeyedEncodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4B282C5FAF50008E1674 /* AdaptedPostboxUnKeyedEncodingContainer.swift */; };
+		449A4B3A2C5FB10B008E1674 /* AdaptedPostboxSingleValueEncodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4B2E2C5FB03E008E1674 /* AdaptedPostboxSingleValueEncodingContainer.swift */; };
+		449A4B3C2C5FBAFB008E1674 /* AccountRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4B162C5FA3A9008E1674 /* AccountRecord.swift */; };
+		449A4B3E2C5FBFB7008E1674 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4B132C5FA352008E1674 /* Account.swift */; };
+		449A4B3F2C5FBFC1008E1674 /* DictionaryEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4B0B2C5FA263008E1674 /* DictionaryEngine.swift */; };
+		449A4B402C5FBFC5008E1674 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4AE02C5F9EFC008E1674 /* Log.swift */; };
+		449A4B7B2C5FC4E7008E1674 /* DictionaryNet.h in Headers */ = {isa = PBXBuildFile; fileRef = 449A4B7A2C5FC4E7008E1674 /* DictionaryNet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		449A4B7E2C5FC4E7008E1674 /* DictionaryNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449A4B782C5FC4E7008E1674 /* DictionaryNet.framework */; };
+		449A4B832C5FC4F3008E1674 /* FunctionDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4ACC2C5F9DFB008E1674 /* FunctionDescription.swift */; };
+		449A4B842C5FC4F3008E1674 /* ServerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4AC82C5F9BE3008E1674 /* ServerConfig.swift */; };
+		449A4B852C5FC4F3008E1674 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4AC62C5F9BD4008E1674 /* Network.swift */; };
+		449A4B862C5FC4F3008E1674 /* DictionaryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4ACA2C5F9C90008E1674 /* DictionaryRequest.swift */; };
+		449A4B882C5FC4FF008E1674 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 449A4B872C5FC4FF008E1674 /* Alamofire */; };
+		449A4B8A2C5FC639008E1674 /* Postbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4B892C5FC639008E1674 /* Postbox.swift */; };
+		449A4B8C2C5FC67D008E1674 /* MediaBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4B8B2C5FC67D008E1674 /* MediaBox.swift */; };
+		449A4B912C5FCF97008E1674 /* DictionaryNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449A4B782C5FC4E7008E1674 /* DictionaryNet.framework */; };
+		449A4BA02C606D1E008E1674 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 449A4B9F2C606D1E008E1674 /* SwiftyJSON */; };
+		449A4BA32C606EDE008E1674 /* Api_Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4B992C606B29008E1674 /* Api_Search.swift */; };
+		449A4BA42C606EE2008E1674 /* JSONDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4BA12C606DF6008E1674 /* JSONDecodable.swift */; };
+		449A4BA52C606EE8008E1674 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4B972C606B07008E1674 /* Api.swift */; };
+		449A4BA72C606FC6008E1674 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4B9C2C606CCE008E1674 /* Word.swift */; };
+		449A4BAE2C60EEEF008E1674 /* WordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4BAC2C60EE4A008E1674 /* WordItem.swift */; };
+		449A4BAF2C60EEF3008E1674 /* DomainTransforable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4BA92C60EE09008E1674 /* DomainTransforable.swift */; };
+		449A4BB32C60F388008E1674 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4BB12C60F386008E1674 /* Network.swift */; };
+		449A4BB72C60F491008E1674 /* SearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4BB52C60F464008E1674 /* SearchRepository.swift */; };
+		449A4BC02C60FA71008E1674 /* DictionaryFeatures.h in Headers */ = {isa = PBXBuildFile; fileRef = 449A4BBF2C60FA71008E1674 /* DictionaryFeatures.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		449A4BCD2C60FBE6008E1674 /* Dependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4BCB2C60FB4D008E1674 /* Dependency.swift */; };
+		449A4BCE2C6101BF008E1674 /* DictionaryCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449A4AF92C5FA01D008E1674 /* DictionaryCore.framework */; };
+		449A4BCF2C6101BF008E1674 /* DictionaryCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 449A4AF92C5FA01D008E1674 /* DictionaryCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		449A4BD22C6101C0008E1674 /* PostBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449A4AE72C5F9FDE008E1674 /* PostBox.framework */; };
+		449A4BD32C6101C0008E1674 /* PostBox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 449A4AE72C5F9FDE008E1674 /* PostBox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		449A4BD82C6101C6008E1674 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 449A4BD72C6101C6008E1674 /* ComposableArchitecture */; };
+		449A4BDB2C610EC2008E1674 /* DictionaryFeatures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449A4BBD2C60FA71008E1674 /* DictionaryFeatures.framework */; };
+		449A4BEF2C611C83008E1674 /* HomeFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4BE02C611104008E1674 /* HomeFeature.swift */; };
+		449A4C102C61208A008E1674 /* DictionaryFeatureTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449A4C0F2C61208A008E1674 /* DictionaryFeatureTest.swift */; };
+		449A4C112C61208A008E1674 /* DictionaryFeatures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449A4BBD2C60FA71008E1674 /* DictionaryFeatures.framework */; };
+		449A4C182C6120A5008E1674 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 449A4C172C6120A5008E1674 /* ComposableArchitecture */; };
+		449A4C192C6120CA008E1674 /* DictionaryCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449A4AF92C5FA01D008E1674 /* DictionaryCore.framework */; };
+		449A4C1A2C6120CA008E1674 /* DictionaryCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 449A4AF92C5FA01D008E1674 /* DictionaryCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		44C166532C5E43100053F007 /* DictionaryAnyWhereApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C166522C5E43100053F007 /* DictionaryAnyWhereApp.swift */; };
 		44C1665C2C5E43110053F007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C1665B2C5E43110053F007 /* Assets.xcassets */; };
 		44C1665F2C5E43110053F007 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 44C1665E2C5E43110053F007 /* Base */; };
-		44C166702C5E49750053F007 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 44C1666F2C5E49750053F007 /* Alamofire */; };
 		44C166752C5E498A0053F007 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 44C166742C5E498A0053F007 /* Kingfisher */; };
 		44C1667B2C5E4B0D0053F007 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 44C1667A2C5E4B0D0053F007 /* ComposableArchitecture */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		449A4AEB2C5F9FDE008E1674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44C166472C5E43100053F007 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 449A4AE62C5F9FDE008E1674;
+			remoteInfo = PostBox;
+		};
+		449A4AFD2C5FA01D008E1674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44C166472C5E43100053F007 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 449A4AF82C5FA01D008E1674;
+			remoteInfo = DictionaryCore;
+		};
+		449A4B072C5FA058008E1674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44C166472C5E43100053F007 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 449A4AE62C5F9FDE008E1674;
+			remoteInfo = PostBox;
+		};
+		449A4B7C2C5FC4E7008E1674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44C166472C5E43100053F007 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 449A4B772C5FC4E7008E1674;
+			remoteInfo = DictionaryNet;
+		};
+		449A4B932C5FCF97008E1674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44C166472C5E43100053F007 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 449A4B772C5FC4E7008E1674;
+			remoteInfo = DictionaryNet;
+		};
+		449A4BD02C6101C0008E1674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44C166472C5E43100053F007 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 449A4AF82C5FA01D008E1674;
+			remoteInfo = DictionaryCore;
+		};
+		449A4BD42C6101C0008E1674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44C166472C5E43100053F007 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 449A4AE62C5F9FDE008E1674;
+			remoteInfo = PostBox;
+		};
+		449A4BDD2C610EC2008E1674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44C166472C5E43100053F007 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 449A4BBC2C60FA71008E1674;
+			remoteInfo = DictionaryFeatures;
+		};
+		449A4C122C61208A008E1674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44C166472C5E43100053F007 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 449A4BBC2C60FA71008E1674;
+			remoteInfo = DictionaryFeatures;
+		};
+		449A4C1B2C6120CA008E1674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44C166472C5E43100053F007 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 449A4AF82C5FA01D008E1674;
+			remoteInfo = DictionaryCore;
+		};
 		44C166B62C5E51AE0053F007 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 44C166472C5E43100053F007 /* Project object */;
@@ -42,12 +168,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		44C166B42C5E51800053F007 /* Embed Frameworks */ = {
+		449A4BD62C6101C0008E1674 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				449A4BD32C6101C0008E1674 /* PostBox.framework in Embed Frameworks */,
+				449A4BCF2C6101BF008E1674 /* DictionaryCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		449A4C1D2C6120CA008E1674 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				449A4C1A2C6120CA008E1674 /* DictionaryCore.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -55,6 +194,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		441F4A8A2C64BF2C0034D7C6 /* WordResultFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordResultFeature.swift; sourceTree = "<group>"; };
+		441F4A8D2C64CA1F0034D7C6 /* PhoneticFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneticFeature.swift; sourceTree = "<group>"; };
+		441F4A8F2C64E0B60034D7C6 /* EtymologyFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtymologyFeature.swift; sourceTree = "<group>"; };
 		449A4A882C5F6071008E1674 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		449A4A8E2C5F6307008E1674 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		449A4A902C5F640F008E1674 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
@@ -69,6 +211,48 @@
 		449A4AA52C5F82A7008E1674 /* Dot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dot.swift; sourceTree = "<group>"; };
 		449A4AA72C5F8613008E1674 /* FlexibleStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexibleStack.swift; sourceTree = "<group>"; };
 		449A4AB02C5F9A5C008E1674 /* WordSearchResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSearchResultView.swift; sourceTree = "<group>"; };
+		449A4AC62C5F9BD4008E1674 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		449A4AC82C5F9BE3008E1674 /* ServerConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerConfig.swift; sourceTree = "<group>"; };
+		449A4ACA2C5F9C90008E1674 /* DictionaryRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryRequest.swift; sourceTree = "<group>"; };
+		449A4ACC2C5F9DFB008E1674 /* FunctionDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionDescription.swift; sourceTree = "<group>"; };
+		449A4ADE2C5F9E49008E1674 /* PostboxLogging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostboxLogging.swift; sourceTree = "<group>"; };
+		449A4AE02C5F9EFC008E1674 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		449A4AE72C5F9FDE008E1674 /* PostBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PostBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		449A4AE92C5F9FDE008E1674 /* PostBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostBox.h; sourceTree = "<group>"; };
+		449A4AF92C5FA01D008E1674 /* DictionaryCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DictionaryCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		449A4AFB2C5FA01D008E1674 /* DictionaryCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DictionaryCore.h; sourceTree = "<group>"; };
+		449A4B0B2C5FA263008E1674 /* DictionaryEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryEngine.swift; sourceTree = "<group>"; };
+		449A4B132C5FA352008E1674 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		449A4B162C5FA3A9008E1674 /* AccountRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRecord.swift; sourceTree = "<group>"; };
+		449A4B192C5FA5C8008E1674 /* AdaptedPostboxDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptedPostboxDecoder.swift; sourceTree = "<group>"; };
+		449A4B1B2C5FA6B3008E1674 /* Coding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coding.swift; sourceTree = "<group>"; };
+		449A4B1D2C5FA819008E1674 /* AdaptedPostboxKeyedDecodingContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptedPostboxKeyedDecodingContainer.swift; sourceTree = "<group>"; };
+		449A4B1F2C5FA92E008E1674 /* ValueBoxKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueBoxKey.swift; sourceTree = "<group>"; };
+		449A4B212C5FAC1A008E1674 /* MurMurHash3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MurMurHash3.swift; sourceTree = "<group>"; };
+		449A4B242C5FAECE008E1674 /* AdaptedPostboxEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptedPostboxEncoder.swift; sourceTree = "<group>"; };
+		449A4B262C5FAF07008E1674 /* AdaptedPostboxEncodingContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptedPostboxEncodingContainer.swift; sourceTree = "<group>"; };
+		449A4B282C5FAF50008E1674 /* AdaptedPostboxUnKeyedEncodingContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptedPostboxUnKeyedEncodingContainer.swift; sourceTree = "<group>"; };
+		449A4B2A2C5FAFD4008E1674 /* AdaptedPostboxUnkeyedDecodingContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptedPostboxUnkeyedDecodingContainer.swift; sourceTree = "<group>"; };
+		449A4B2C2C5FB01F008E1674 /* AdaptedPostboxSingleValueDecodingContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptedPostboxSingleValueDecodingContainer.swift; sourceTree = "<group>"; };
+		449A4B2E2C5FB03E008E1674 /* AdaptedPostboxSingleValueEncodingContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptedPostboxSingleValueEncodingContainer.swift; sourceTree = "<group>"; };
+		449A4B782C5FC4E7008E1674 /* DictionaryNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DictionaryNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		449A4B7A2C5FC4E7008E1674 /* DictionaryNet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DictionaryNet.h; sourceTree = "<group>"; };
+		449A4B892C5FC639008E1674 /* Postbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Postbox.swift; sourceTree = "<group>"; };
+		449A4B8B2C5FC67D008E1674 /* MediaBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaBox.swift; sourceTree = "<group>"; };
+		449A4B972C606B07008E1674 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		449A4B992C606B29008E1674 /* Api_Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api_Search.swift; sourceTree = "<group>"; };
+		449A4B9C2C606CCE008E1674 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		449A4BA12C606DF6008E1674 /* JSONDecodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDecodable.swift; sourceTree = "<group>"; };
+		449A4BA92C60EE09008E1674 /* DomainTransforable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainTransforable.swift; sourceTree = "<group>"; };
+		449A4BAC2C60EE4A008E1674 /* WordItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordItem.swift; sourceTree = "<group>"; };
+		449A4BB12C60F386008E1674 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		449A4BB52C60F464008E1674 /* SearchRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepository.swift; sourceTree = "<group>"; };
+		449A4BBD2C60FA71008E1674 /* DictionaryFeatures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DictionaryFeatures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		449A4BBF2C60FA71008E1674 /* DictionaryFeatures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DictionaryFeatures.h; sourceTree = "<group>"; };
+		449A4BCB2C60FB4D008E1674 /* Dependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependency.swift; sourceTree = "<group>"; };
+		449A4BE02C611104008E1674 /* HomeFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeature.swift; sourceTree = "<group>"; };
+		449A4C0D2C61208A008E1674 /* DictionaryFeatureTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DictionaryFeatureTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		449A4C0F2C61208A008E1674 /* DictionaryFeatureTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryFeatureTest.swift; sourceTree = "<group>"; };
 		44C1664F2C5E43100053F007 /* DictionaryAnyWhere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DictionaryAnyWhere.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C166522C5E43100053F007 /* DictionaryAnyWhereApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryAnyWhereApp.swift; sourceTree = "<group>"; };
 		44C1665B2C5E43110053F007 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -77,15 +261,63 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		449A4AE42C5F9FDE008E1674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		449A4AF62C5FA01D008E1674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449A4B912C5FCF97008E1674 /* DictionaryNet.framework in Frameworks */,
+				449A4B052C5FA058008E1674 /* PostBox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		449A4B752C5FC4E7008E1674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449A4BA02C606D1E008E1674 /* SwiftyJSON in Frameworks */,
+				449A4B882C5FC4FF008E1674 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		449A4BBA2C60FA71008E1674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449A4BD22C6101C0008E1674 /* PostBox.framework in Frameworks */,
+				449A4BCE2C6101BF008E1674 /* DictionaryCore.framework in Frameworks */,
+				449A4BD82C6101C6008E1674 /* ComposableArchitecture in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		449A4C0A2C61208A008E1674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449A4C182C6120A5008E1674 /* ComposableArchitecture in Frameworks */,
+				449A4C192C6120CA008E1674 /* DictionaryCore.framework in Frameworks */,
+				449A4C112C61208A008E1674 /* DictionaryFeatures.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		44C1664C2C5E43100053F007 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				44C1667B2C5E4B0D0053F007 /* ComposableArchitecture in Frameworks */,
+				449A4B7E2C5FC4E7008E1674 /* DictionaryNet.framework in Frameworks */,
 				449A4AAE2C5F8B48008E1674 /* Flow in Frameworks */,
+				449A4AFF2C5FA01D008E1674 /* DictionaryCore.framework in Frameworks */,
+				449A4AED2C5F9FDE008E1674 /* PostBox.framework in Frameworks */,
+				449A4BDB2C610EC2008E1674 /* DictionaryFeatures.framework in Frameworks */,
 				449A4AAB2C5F89FD008E1674 /* WaterfallGrid in Frameworks */,
 				44C166752C5E498A0053F007 /* Kingfisher in Frameworks */,
-				44C166702C5E49750053F007 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,10 +389,242 @@
 			path = Component;
 			sourceTree = "<group>";
 		};
+		449A4AB32C5F9B64008E1674 /* submodules */ = {
+			isa = PBXGroup;
+			children = (
+				449A4BBE2C60FA71008E1674 /* DictionaryFeatures */,
+				449A4B792C5FC4E7008E1674 /* DictionaryNet */,
+				449A4AFA2C5FA01D008E1674 /* DictionaryCore */,
+				449A4AE82C5F9FDE008E1674 /* PostBox */,
+			);
+			path = submodules;
+			sourceTree = "<group>";
+		};
+		449A4AE82C5F9FDE008E1674 /* PostBox */ = {
+			isa = PBXGroup;
+			children = (
+				449A4B0E2C5FA2BA008E1674 /* Sources */,
+				449A4AE92C5F9FDE008E1674 /* PostBox.h */,
+			);
+			path = PostBox;
+			sourceTree = "<group>";
+		};
+		449A4AFA2C5FA01D008E1674 /* DictionaryCore */ = {
+			isa = PBXGroup;
+			children = (
+				449A4B0A2C5FA22C008E1674 /* Sources */,
+				449A4AFB2C5FA01D008E1674 /* DictionaryCore.h */,
+			);
+			path = DictionaryCore;
+			sourceTree = "<group>";
+		};
+		449A4B0A2C5FA22C008E1674 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				449A4B152C5FA394008E1674 /* AccountManager */,
+				449A4B122C5FA345008E1674 /* Account */,
+				449A4B102C5FA2D0008E1674 /* Engine */,
+				449A4AE02C5F9EFC008E1674 /* Log.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		449A4B0D2C5FA2A2008E1674 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				449A4B9B2C606CAD008E1674 /* Entities */,
+				449A4B962C606A64008E1674 /* Api */,
+				449A4AC62C5F9BD4008E1674 /* Network.swift */,
+				449A4AC82C5F9BE3008E1674 /* ServerConfig.swift */,
+				449A4ACA2C5F9C90008E1674 /* DictionaryRequest.swift */,
+				449A4ACC2C5F9DFB008E1674 /* FunctionDescription.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		449A4B0E2C5FA2BA008E1674 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				449A4B232C5FAEBB008E1674 /* Encoder */,
+				449A4B182C5FA5B2008E1674 /* Decoder */,
+				449A4ADE2C5F9E49008E1674 /* PostboxLogging.swift */,
+				449A4B1B2C5FA6B3008E1674 /* Coding.swift */,
+				449A4B1F2C5FA92E008E1674 /* ValueBoxKey.swift */,
+				449A4B212C5FAC1A008E1674 /* MurMurHash3.swift */,
+				449A4B892C5FC639008E1674 /* Postbox.swift */,
+				449A4B8B2C5FC67D008E1674 /* MediaBox.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		449A4B102C5FA2D0008E1674 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				449A4BB02C60F37B008E1674 /* Network */,
+				449A4BAB2C60EE40008E1674 /* Domains */,
+				449A4BA82C60EDFA008E1674 /* Utils */,
+				449A4B8D2C5FC870008E1674 /* Repositories */,
+				449A4B0B2C5FA263008E1674 /* DictionaryEngine.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		449A4B122C5FA345008E1674 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				449A4B132C5FA352008E1674 /* Account.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		449A4B152C5FA394008E1674 /* AccountManager */ = {
+			isa = PBXGroup;
+			children = (
+				449A4B162C5FA3A9008E1674 /* AccountRecord.swift */,
+			);
+			path = AccountManager;
+			sourceTree = "<group>";
+		};
+		449A4B182C5FA5B2008E1674 /* Decoder */ = {
+			isa = PBXGroup;
+			children = (
+				449A4B192C5FA5C8008E1674 /* AdaptedPostboxDecoder.swift */,
+				449A4B1D2C5FA819008E1674 /* AdaptedPostboxKeyedDecodingContainer.swift */,
+				449A4B2A2C5FAFD4008E1674 /* AdaptedPostboxUnkeyedDecodingContainer.swift */,
+				449A4B2C2C5FB01F008E1674 /* AdaptedPostboxSingleValueDecodingContainer.swift */,
+			);
+			path = Decoder;
+			sourceTree = "<group>";
+		};
+		449A4B232C5FAEBB008E1674 /* Encoder */ = {
+			isa = PBXGroup;
+			children = (
+				449A4B242C5FAECE008E1674 /* AdaptedPostboxEncoder.swift */,
+				449A4B262C5FAF07008E1674 /* AdaptedPostboxEncodingContainer.swift */,
+				449A4B282C5FAF50008E1674 /* AdaptedPostboxUnKeyedEncodingContainer.swift */,
+				449A4B2E2C5FB03E008E1674 /* AdaptedPostboxSingleValueEncodingContainer.swift */,
+			);
+			path = Encoder;
+			sourceTree = "<group>";
+		};
+		449A4B792C5FC4E7008E1674 /* DictionaryNet */ = {
+			isa = PBXGroup;
+			children = (
+				449A4B0D2C5FA2A2008E1674 /* Sources */,
+				449A4B7A2C5FC4E7008E1674 /* DictionaryNet.h */,
+			);
+			path = DictionaryNet;
+			sourceTree = "<group>";
+		};
+		449A4B8D2C5FC870008E1674 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				449A4BB42C60F457008E1674 /* SearchRepository */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		449A4B962C606A64008E1674 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				449A4B972C606B07008E1674 /* Api.swift */,
+				449A4B992C606B29008E1674 /* Api_Search.swift */,
+				449A4BA12C606DF6008E1674 /* JSONDecodable.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		449A4B9B2C606CAD008E1674 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				449A4B9C2C606CCE008E1674 /* Word.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		449A4BA82C60EDFA008E1674 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				449A4BA92C60EE09008E1674 /* DomainTransforable.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		449A4BAB2C60EE40008E1674 /* Domains */ = {
+			isa = PBXGroup;
+			children = (
+				449A4BAC2C60EE4A008E1674 /* WordItem.swift */,
+			);
+			path = Domains;
+			sourceTree = "<group>";
+		};
+		449A4BB02C60F37B008E1674 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				449A4BB12C60F386008E1674 /* Network.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		449A4BB42C60F457008E1674 /* SearchRepository */ = {
+			isa = PBXGroup;
+			children = (
+				449A4BB52C60F464008E1674 /* SearchRepository.swift */,
+			);
+			path = SearchRepository;
+			sourceTree = "<group>";
+		};
+		449A4BBE2C60FA71008E1674 /* DictionaryFeatures */ = {
+			isa = PBXGroup;
+			children = (
+				449A4BCA2C60FB3E008E1674 /* Sources */,
+			);
+			path = DictionaryFeatures;
+			sourceTree = "<group>";
+		};
+		449A4BCA2C60FB3E008E1674 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				449A4BDA2C610EA5008E1674 /* Store */,
+				449A4BD92C610E00008E1674 /* Dependency */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		449A4BD92C610E00008E1674 /* Dependency */ = {
+			isa = PBXGroup;
+			children = (
+				449A4BCB2C60FB4D008E1674 /* Dependency.swift */,
+				449A4BBF2C60FA71008E1674 /* DictionaryFeatures.h */,
+			);
+			path = Dependency;
+			sourceTree = "<group>";
+		};
+		449A4BDA2C610EA5008E1674 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				449A4BE02C611104008E1674 /* HomeFeature.swift */,
+				441F4A8A2C64BF2C0034D7C6 /* WordResultFeature.swift */,
+				441F4A8D2C64CA1F0034D7C6 /* PhoneticFeature.swift */,
+				441F4A8F2C64E0B60034D7C6 /* EtymologyFeature.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		449A4C0E2C61208A008E1674 /* DictionaryFeatureTest */ = {
+			isa = PBXGroup;
+			children = (
+				449A4C0F2C61208A008E1674 /* DictionaryFeatureTest.swift */,
+			);
+			path = DictionaryFeatureTest;
+			sourceTree = "<group>";
+		};
 		44C166462C5E43100053F007 = {
 			isa = PBXGroup;
 			children = (
+				449A4AB32C5F9B64008E1674 /* submodules */,
 				44C166512C5E43100053F007 /* BingDictionary */,
+				449A4C0E2C61208A008E1674 /* DictionaryFeatureTest */,
 				44C166502C5E43100053F007 /* Products */,
 				44C1668C2C5E4E950053F007 /* Frameworks */,
 			);
@@ -170,6 +634,11 @@
 			isa = PBXGroup;
 			children = (
 				44C1664F2C5E43100053F007 /* DictionaryAnyWhere.app */,
+				449A4AE72C5F9FDE008E1674 /* PostBox.framework */,
+				449A4AF92C5FA01D008E1674 /* DictionaryCore.framework */,
+				449A4B782C5FC4E7008E1674 /* DictionaryNet.framework */,
+				449A4BBD2C60FA71008E1674 /* DictionaryFeatures.framework */,
+				449A4C0D2C61208A008E1674 /* DictionaryFeatureTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -207,7 +676,149 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		449A4AE22C5F9FDE008E1674 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449A4AEA2C5F9FDE008E1674 /* PostBox.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		449A4AF42C5FA01D008E1674 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449A4AFC2C5FA01D008E1674 /* DictionaryCore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		449A4B732C5FC4E7008E1674 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449A4B7B2C5FC4E7008E1674 /* DictionaryNet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		449A4BB82C60FA71008E1674 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449A4BC02C60FA71008E1674 /* DictionaryFeatures.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		449A4AE62C5F9FDE008E1674 /* PostBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 449A4AEF2C5F9FDE008E1674 /* Build configuration list for PBXNativeTarget "PostBox" */;
+			buildPhases = (
+				449A4AE22C5F9FDE008E1674 /* Headers */,
+				449A4AE32C5F9FDE008E1674 /* Sources */,
+				449A4AE42C5F9FDE008E1674 /* Frameworks */,
+				449A4AE52C5F9FDE008E1674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PostBox;
+			productName = PostBox;
+			productReference = 449A4AE72C5F9FDE008E1674 /* PostBox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		449A4AF82C5FA01D008E1674 /* DictionaryCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 449A4B012C5FA01D008E1674 /* Build configuration list for PBXNativeTarget "DictionaryCore" */;
+			buildPhases = (
+				449A4AF42C5FA01D008E1674 /* Headers */,
+				449A4AF52C5FA01D008E1674 /* Sources */,
+				449A4AF62C5FA01D008E1674 /* Frameworks */,
+				449A4AF72C5FA01D008E1674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				449A4B082C5FA058008E1674 /* PBXTargetDependency */,
+				449A4B942C5FCF97008E1674 /* PBXTargetDependency */,
+			);
+			name = DictionaryCore;
+			productName = DictionaryCore;
+			productReference = 449A4AF92C5FA01D008E1674 /* DictionaryCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		449A4B772C5FC4E7008E1674 /* DictionaryNet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 449A4B802C5FC4E7008E1674 /* Build configuration list for PBXNativeTarget "DictionaryNet" */;
+			buildPhases = (
+				449A4B732C5FC4E7008E1674 /* Headers */,
+				449A4B742C5FC4E7008E1674 /* Sources */,
+				449A4B752C5FC4E7008E1674 /* Frameworks */,
+				449A4B762C5FC4E7008E1674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DictionaryNet;
+			packageProductDependencies = (
+				449A4B872C5FC4FF008E1674 /* Alamofire */,
+				449A4B9F2C606D1E008E1674 /* SwiftyJSON */,
+			);
+			productName = DictionaryNet;
+			productReference = 449A4B782C5FC4E7008E1674 /* DictionaryNet.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		449A4BBC2C60FA71008E1674 /* DictionaryFeatures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 449A4BC52C60FA71008E1674 /* Build configuration list for PBXNativeTarget "DictionaryFeatures" */;
+			buildPhases = (
+				449A4BB82C60FA71008E1674 /* Headers */,
+				449A4BB92C60FA71008E1674 /* Sources */,
+				449A4BBA2C60FA71008E1674 /* Frameworks */,
+				449A4BBB2C60FA71008E1674 /* Resources */,
+				449A4BD62C6101C0008E1674 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				449A4BD12C6101C0008E1674 /* PBXTargetDependency */,
+				449A4BD52C6101C0008E1674 /* PBXTargetDependency */,
+			);
+			name = DictionaryFeatures;
+			packageProductDependencies = (
+				449A4BD72C6101C6008E1674 /* ComposableArchitecture */,
+			);
+			productName = DictionaryFeatures;
+			productReference = 449A4BBD2C60FA71008E1674 /* DictionaryFeatures.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		449A4C0C2C61208A008E1674 /* DictionaryFeatureTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 449A4C142C61208A008E1674 /* Build configuration list for PBXNativeTarget "DictionaryFeatureTest" */;
+			buildPhases = (
+				449A4C092C61208A008E1674 /* Sources */,
+				449A4C0A2C61208A008E1674 /* Frameworks */,
+				449A4C0B2C61208A008E1674 /* Resources */,
+				449A4C1D2C6120CA008E1674 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				449A4C132C61208A008E1674 /* PBXTargetDependency */,
+				449A4C1C2C6120CA008E1674 /* PBXTargetDependency */,
+			);
+			name = DictionaryFeatureTest;
+			packageProductDependencies = (
+				449A4C172C6120A5008E1674 /* ComposableArchitecture */,
+			);
+			productName = DictionaryFeatureTest;
+			productReference = 449A4C0D2C61208A008E1674 /* DictionaryFeatureTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		44C1664E2C5E43100053F007 /* DictionaryAnyWhere */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44C166632C5E43110053F007 /* Build configuration list for PBXNativeTarget "DictionaryAnyWhere" */;
@@ -215,16 +826,18 @@
 				44C1664B2C5E43100053F007 /* Sources */,
 				44C1664C2C5E43100053F007 /* Frameworks */,
 				44C1664D2C5E43100053F007 /* Resources */,
-				44C166B42C5E51800053F007 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				44C166B72C5E51AE0053F007 /* PBXTargetDependency */,
+				449A4AEC2C5F9FDE008E1674 /* PBXTargetDependency */,
+				449A4AFE2C5FA01D008E1674 /* PBXTargetDependency */,
+				449A4B7D2C5FC4E7008E1674 /* PBXTargetDependency */,
+				449A4BDE2C610EC2008E1674 /* PBXTargetDependency */,
 			);
 			name = DictionaryAnyWhere;
 			packageProductDependencies = (
-				44C1666F2C5E49750053F007 /* Alamofire */,
 				44C166742C5E498A0053F007 /* Kingfisher */,
 				44C1667A2C5E4B0D0053F007 /* ComposableArchitecture */,
 				449A4AAA2C5F89FD008E1674 /* WaterfallGrid */,
@@ -244,6 +857,21 @@
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
+					449A4AE62C5F9FDE008E1674 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					449A4AF82C5FA01D008E1674 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					449A4B772C5FC4E7008E1674 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					449A4BBC2C60FA71008E1674 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					449A4C0C2C61208A008E1674 = {
+						CreatedOnToolsVersion = 15.4;
+					};
 					44C1664E2C5E43100053F007 = {
 						CreatedOnToolsVersion = 15.4;
 					};
@@ -264,17 +892,58 @@
 				44C166792C5E4B0D0053F007 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
 				449A4AA92C5F89FD008E1674 /* XCRemoteSwiftPackageReference "WaterfallGrid" */,
 				449A4AAC2C5F8B48008E1674 /* XCRemoteSwiftPackageReference "SwiftUI-Flow" */,
+				449A4B9E2C606D1E008E1674 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 			);
 			productRefGroup = 44C166502C5E43100053F007 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				44C1664E2C5E43100053F007 /* DictionaryAnyWhere */,
+				449A4AE62C5F9FDE008E1674 /* PostBox */,
+				449A4AF82C5FA01D008E1674 /* DictionaryCore */,
+				449A4B772C5FC4E7008E1674 /* DictionaryNet */,
+				449A4BBC2C60FA71008E1674 /* DictionaryFeatures */,
+				449A4C0C2C61208A008E1674 /* DictionaryFeatureTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		449A4AE52C5F9FDE008E1674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		449A4AF72C5FA01D008E1674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		449A4B762C5FC4E7008E1674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		449A4BBB2C60FA71008E1674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		449A4C0B2C61208A008E1674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		44C1664D2C5E43100053F007 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -287,6 +956,77 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		449A4AE32C5F9FDE008E1674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449A4B332C5FB104008E1674 /* AdaptedPostboxKeyedDecodingContainer.swift in Sources */,
+				449A4B342C5FB104008E1674 /* AdaptedPostboxSingleValueDecodingContainer.swift in Sources */,
+				449A4B8C2C5FC67D008E1674 /* MediaBox.swift in Sources */,
+				449A4B352C5FB104008E1674 /* AdaptedPostboxDecoder.swift in Sources */,
+				449A4B362C5FB104008E1674 /* AdaptedPostboxUnkeyedDecodingContainer.swift in Sources */,
+				449A4AF22C5F9FF0008E1674 /* PostboxLogging.swift in Sources */,
+				449A4B312C5FB0FD008E1674 /* MurMurHash3.swift in Sources */,
+				449A4B8A2C5FC639008E1674 /* Postbox.swift in Sources */,
+				449A4B372C5FB10B008E1674 /* AdaptedPostboxEncoder.swift in Sources */,
+				449A4B382C5FB10B008E1674 /* AdaptedPostboxEncodingContainer.swift in Sources */,
+				449A4B392C5FB10B008E1674 /* AdaptedPostboxUnKeyedEncodingContainer.swift in Sources */,
+				449A4B3A2C5FB10B008E1674 /* AdaptedPostboxSingleValueEncodingContainer.swift in Sources */,
+				449A4B322C5FB0FD008E1674 /* ValueBoxKey.swift in Sources */,
+				449A4B302C5FB0F7008E1674 /* Coding.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		449A4AF52C5FA01D008E1674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449A4BAF2C60EEF3008E1674 /* DomainTransforable.swift in Sources */,
+				449A4B3C2C5FBAFB008E1674 /* AccountRecord.swift in Sources */,
+				449A4BB32C60F388008E1674 /* Network.swift in Sources */,
+				449A4B3F2C5FBFC1008E1674 /* DictionaryEngine.swift in Sources */,
+				449A4B402C5FBFC5008E1674 /* Log.swift in Sources */,
+				449A4BB72C60F491008E1674 /* SearchRepository.swift in Sources */,
+				449A4BAE2C60EEEF008E1674 /* WordItem.swift in Sources */,
+				449A4B3E2C5FBFB7008E1674 /* Account.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		449A4B742C5FC4E7008E1674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449A4B832C5FC4F3008E1674 /* FunctionDescription.swift in Sources */,
+				449A4BA72C606FC6008E1674 /* Word.swift in Sources */,
+				449A4B842C5FC4F3008E1674 /* ServerConfig.swift in Sources */,
+				449A4B852C5FC4F3008E1674 /* Network.swift in Sources */,
+				449A4BA42C606EE2008E1674 /* JSONDecodable.swift in Sources */,
+				449A4B862C5FC4F3008E1674 /* DictionaryRequest.swift in Sources */,
+				449A4BA52C606EE8008E1674 /* Api.swift in Sources */,
+				449A4BA32C606EDE008E1674 /* Api_Search.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		449A4BB92C60FA71008E1674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				441F4A8C2C64C11A0034D7C6 /* WordResultFeature.swift in Sources */,
+				441F4A902C64E0B60034D7C6 /* EtymologyFeature.swift in Sources */,
+				449A4BCD2C60FBE6008E1674 /* Dependency.swift in Sources */,
+				441F4A8E2C64CA1F0034D7C6 /* PhoneticFeature.swift in Sources */,
+				449A4BEF2C611C83008E1674 /* HomeFeature.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		449A4C092C61208A008E1674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449A4C102C61208A008E1674 /* DictionaryFeatureTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		44C1664B2C5E43100053F007 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -312,6 +1052,56 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		449A4AEC2C5F9FDE008E1674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 449A4AE62C5F9FDE008E1674 /* PostBox */;
+			targetProxy = 449A4AEB2C5F9FDE008E1674 /* PBXContainerItemProxy */;
+		};
+		449A4AFE2C5FA01D008E1674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 449A4AF82C5FA01D008E1674 /* DictionaryCore */;
+			targetProxy = 449A4AFD2C5FA01D008E1674 /* PBXContainerItemProxy */;
+		};
+		449A4B082C5FA058008E1674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 449A4AE62C5F9FDE008E1674 /* PostBox */;
+			targetProxy = 449A4B072C5FA058008E1674 /* PBXContainerItemProxy */;
+		};
+		449A4B7D2C5FC4E7008E1674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 449A4B772C5FC4E7008E1674 /* DictionaryNet */;
+			targetProxy = 449A4B7C2C5FC4E7008E1674 /* PBXContainerItemProxy */;
+		};
+		449A4B942C5FCF97008E1674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 449A4B772C5FC4E7008E1674 /* DictionaryNet */;
+			targetProxy = 449A4B932C5FCF97008E1674 /* PBXContainerItemProxy */;
+		};
+		449A4BD12C6101C0008E1674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 449A4AF82C5FA01D008E1674 /* DictionaryCore */;
+			targetProxy = 449A4BD02C6101C0008E1674 /* PBXContainerItemProxy */;
+		};
+		449A4BD52C6101C0008E1674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 449A4AE62C5F9FDE008E1674 /* PostBox */;
+			targetProxy = 449A4BD42C6101C0008E1674 /* PBXContainerItemProxy */;
+		};
+		449A4BDE2C610EC2008E1674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 449A4BBC2C60FA71008E1674 /* DictionaryFeatures */;
+			targetProxy = 449A4BDD2C610EC2008E1674 /* PBXContainerItemProxy */;
+		};
+		449A4C132C61208A008E1674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 449A4BBC2C60FA71008E1674 /* DictionaryFeatures */;
+			targetProxy = 449A4C122C61208A008E1674 /* PBXContainerItemProxy */;
+		};
+		449A4C1C2C6120CA008E1674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 449A4AF82C5FA01D008E1674 /* DictionaryCore */;
+			targetProxy = 449A4C1B2C6120CA008E1674 /* PBXContainerItemProxy */;
+		};
 		44C166B72C5E51AE0053F007 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			targetProxy = 44C166B62C5E51AE0053F007 /* PBXContainerItemProxy */;
@@ -330,6 +1120,324 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		449A4AF02C5F9FDE008E1674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.bingbing.PostBox;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		449A4AF12C5F9FDE008E1674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.bingbing.PostBox;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		449A4B022C5FA01D008E1674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.bingbing.DictionaryCore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		449A4B032C5FA01D008E1674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.bingbing.DictionaryCore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		449A4B812C5FC4E7008E1674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.bingbing.DictionaryNet;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		449A4B822C5FC4E7008E1674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.bingbing.DictionaryNet;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		449A4BC62C60FA71008E1674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.bingbing.DictionaryFeatures;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		449A4BC72C60FA71008E1674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.bingbing.DictionaryFeatures;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		449A4C152C61208A008E1674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.bingbing.DictionaryFeatureTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		449A4C162C61208A008E1674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.bingbing.DictionaryFeatureTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		44C166612C5E43110053F007 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -452,9 +1560,9 @@
 		44C166642C5E43110053F007 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -480,9 +1588,9 @@
 		44C166652C5E43110053F007 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -508,6 +1616,51 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		449A4AEF2C5F9FDE008E1674 /* Build configuration list for PBXNativeTarget "PostBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				449A4AF02C5F9FDE008E1674 /* Debug */,
+				449A4AF12C5F9FDE008E1674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		449A4B012C5FA01D008E1674 /* Build configuration list for PBXNativeTarget "DictionaryCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				449A4B022C5FA01D008E1674 /* Debug */,
+				449A4B032C5FA01D008E1674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		449A4B802C5FC4E7008E1674 /* Build configuration list for PBXNativeTarget "DictionaryNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				449A4B812C5FC4E7008E1674 /* Debug */,
+				449A4B822C5FC4E7008E1674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		449A4BC52C60FA71008E1674 /* Build configuration list for PBXNativeTarget "DictionaryFeatures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				449A4BC62C60FA71008E1674 /* Debug */,
+				449A4BC72C60FA71008E1674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		449A4C142C61208A008E1674 /* Build configuration list for PBXNativeTarget "DictionaryFeatureTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				449A4C152C61208A008E1674 /* Debug */,
+				449A4C162C61208A008E1674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		44C1664A2C5E43100053F007 /* Build configuration list for PBXProject "BingDictionary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -543,6 +1696,14 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 2.4.0;
+			};
+		};
+		449A4B9E2C606D1E008E1674 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.2;
 			};
 		};
 		44C1666E2C5E49750053F007 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
@@ -582,10 +1743,25 @@
 			package = 449A4AAC2C5F8B48008E1674 /* XCRemoteSwiftPackageReference "SwiftUI-Flow" */;
 			productName = Flow;
 		};
-		44C1666F2C5E49750053F007 /* Alamofire */ = {
+		449A4B872C5FC4FF008E1674 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 44C1666E2C5E49750053F007 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		449A4B9F2C606D1E008E1674 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 449A4B9E2C606D1E008E1674 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		449A4BD72C6101C6008E1674 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44C166792C5E4B0D0053F007 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		449A4C172C6120A5008E1674 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44C166792C5E4B0D0053F007 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
 		};
 		44C166742C5E498A0053F007 /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;

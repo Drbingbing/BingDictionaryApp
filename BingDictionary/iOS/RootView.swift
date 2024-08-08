@@ -6,11 +6,18 @@
 //
 
 import SwiftUI
+import ComposableArchitecture
+import DictionaryFeatures
 
 struct RootView: View {
     var body: some View {
         NavigationStack {
-            HomeView()
+            HomeView(
+                store: Store(
+                    initialState: HomeFeature.State(),
+                    reducer: { HomeFeature() }
+                )
+            )
         }
     }
 }

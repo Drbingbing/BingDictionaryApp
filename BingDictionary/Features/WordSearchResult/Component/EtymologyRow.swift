@@ -7,8 +7,14 @@
 
 import SwiftUI
 import Flow
+import ComposableArchitecture
+import DictionaryCore
+import DictionaryFeatures
 
 struct EtymologyRow: View {
+    
+    @Bindable var store: StoreOf<EtymologyFeature>
+    
     var body: some View {
         VStack {
             HStack {
@@ -120,5 +126,10 @@ private struct SourceLink: View {
 }
 
 #Preview {
-    EtymologyRow()
+    EtymologyRow(
+        store: Store(
+            initialState: EtymologyFeature.State(meanings: []),
+            reducer: { EtymologyFeature() }
+        )
+    )
 }

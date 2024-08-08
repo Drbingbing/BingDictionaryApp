@@ -15,9 +15,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "44C1664E2C5E43100053F007"
-               BuildableName = "DictionaryAnyWhere.app"
-               BlueprintName = "DictionaryAnyWhere"
+               BlueprintIdentifier = "449A4BBC2C60FA71008E1674"
+               BuildableName = "DictionaryFeatures.framework"
+               BlueprintName = "DictionaryFeatures"
                ReferencedContainer = "container:BingDictionary.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,19 +29,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       shouldAutocreateTestPlan = "YES">
-      <Testables>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "449A4BE52C61179F008E1674"
-               BuildableName = "DictionaryFeaturesTest.xctest"
-               BlueprintName = "DictionaryFeaturesTest"
-               ReferencedContainer = "container:BingDictionary.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -53,16 +40,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "44C1664E2C5E43100053F007"
-            BuildableName = "DictionaryAnyWhere.app"
-            BlueprintName = "DictionaryAnyWhere"
-            ReferencedContainer = "container:BingDictionary.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -70,16 +47,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "44C1664E2C5E43100053F007"
-            BuildableName = "DictionaryAnyWhere.app"
-            BlueprintName = "DictionaryAnyWhere"
+            BlueprintIdentifier = "449A4BBC2C60FA71008E1674"
+            BuildableName = "DictionaryFeatures.framework"
+            BlueprintName = "DictionaryFeatures"
             ReferencedContainer = "container:BingDictionary.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

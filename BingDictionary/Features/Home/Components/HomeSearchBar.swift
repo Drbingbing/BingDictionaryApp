@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct HomeSearchBar: View {
+    @Binding var searchText: String
+    
     var body: some View {
         HStack {
-            TextField("Enter word", text: .constant(""))
+            TextField("Enter word", text: $searchText)
             Spacer()
             Image("magnifying-glass-outlined")
                 .asSearchBarIcon(.template)
@@ -27,5 +29,5 @@ struct HomeSearchBar: View {
 }
 
 #Preview {
-    HomeSearchBar()
+    HomeSearchBar(searchText: .constant(""))
 }

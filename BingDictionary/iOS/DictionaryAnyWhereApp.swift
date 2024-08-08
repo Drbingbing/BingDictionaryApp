@@ -5,6 +5,8 @@
 //  Created by Bing Bing on 2024/8/3.
 //
 import SwiftUI
+import ComposableArchitecture
+import DictionaryFeatures
 
 @main
 struct DictionaryAnyWhereApp: App {
@@ -13,7 +15,7 @@ struct DictionaryAnyWhereApp: App {
     
     var body: some Scene {
         WindowGroup {
-            Text("Dictionary Anywhere")
+            RootView()
         }
     }
 }
